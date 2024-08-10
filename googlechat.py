@@ -41,7 +41,7 @@ if user_input:
     else:
         st.write("Please upload a PDF first.")
 
-
+st.write("Google Generative AI package imported successfully!")
 
 
 
