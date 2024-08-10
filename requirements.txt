@@ -1,3 +1,4 @@
-streamlit
-google-generativeai==0.1.0  # Ensure this is the correct package and version
-PyPDF2
+import streamlit as st
+import google.generativeai as genai
+from PyPDF2 import PdfReader
+import io
