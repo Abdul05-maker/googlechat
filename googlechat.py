@@ -4,7 +4,6 @@ from PyPDF2 import PdfReader
 import io
 
 # Configure Google Generative AI API
-GOOGLE_API_KEY = "AIzaSyCWNDbhBTB6p6WxD1Bqvvz93Dxj8EoVJj8"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-1.5-flash')
 
